@@ -28,6 +28,6 @@
 ###
 ### - Tela player, mostra a musica que esta sendo reproduzida e seu fluxo de reprodução:
 
-- Na tela player voce pode controlar a reprodução da musica, pode escolher uma outra musica para reproduzir,alem de ter os controles do player. 
+- Na tela player voce pode controlar a reprodução da musica, pode escolher uma outra musica para reproduzir,além de ter os controles do player. 
 ####
   <img src="/home/david-marcos/Documentos/Space Music - (Projeto Python)/Space_Music/interfaces/imagens/tela_player.png" alt="">
