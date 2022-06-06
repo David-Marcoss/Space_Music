@@ -22,7 +22,7 @@
 - para reproduzir uma muicas basta clicar no titulo da musica que voce deseja reproduzir, ou clicar no botao play .
   
 ####
-  <img src="/home/david-marcos/Documentos/Space Music - (Projeto Python)/Space_Music/interfaces/imagens/tela_musicas.png" alt="">
+  <img src="tela_musicas.png" alt="">
   
 ####
 ###
@@ -30,4 +30,4 @@
 
 - Na tela player voce pode controlar a reprodução da musica, pode escolher uma outra musica para reproduzir,além de ter os controles do player. 
 ####
-  <img src="/home/david-marcos/Documentos/Space Music - (Projeto Python)/Space_Music/interfaces/imagens/tela_player.png" alt="">
+  <img src="tela_player.png" alt="">
