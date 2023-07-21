@@ -10,7 +10,7 @@ sys.path.insert(1, '../')
 
 from Classes.Class_tocar import tocar
 from Classes.Class_musicas_desktop import musicas_descktop
-from funcoe_auxiliares import formata_tempo
+from Classes.funcoe_auxiliares import formata_tempo
 
 import threading
 import pygame
@@ -23,7 +23,7 @@ class main_telas(QtWidgets.QWidget):
         Main.resize(900, 600) #tamanho tela
 
         Main.setWindowTitle("Space Music")
-        Main.setWindowIcon(QtGui.QIcon("imagens/icon_space.png"))
+        Main.setWindowIcon(QtGui.QIcon("./imagens/icon_space.png"))
 
         self.QtStack = QtWidgets.QStackedLayout()
 
@@ -45,7 +45,7 @@ class main(QMainWindow,main_telas):
         self.setupUi(self)
 
         self.setWindowTitle("Space Music")
-        self.setWindowIcon(QtGui.QIcon("imagens/icon_space.png"))
+        self.setWindowIcon(QtGui.QIcon("./imagens/icon_space.png"))
 
 
         """--------------------------BOTOES FUNCIONALIDADES DO PLAYER --------------------"""

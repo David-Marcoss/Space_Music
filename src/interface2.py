@@ -74,7 +74,7 @@ class Ui_MainWindow(object):
         self.label_img.setMaximumSize(QtCore.QSize(200, 160))
         self.label_img.setStyleSheet("background-color: 0;")
         self.label_img.setText("")
-        self.label_img.setPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/music.png"))
+        self.label_img.setPixmap(QtGui.QPixmap("../../SpaceMusic/src/imagens/music.png"))
         self.label_img.setScaledContents(True)
         self.label_img.setObjectName("label_img")
         self.horizontalLayout_11.addWidget(self.label_img)
@@ -151,7 +151,7 @@ class Ui_MainWindow(object):
 "}")
         self.botaoplay.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/botao-play-ponta-de-seta.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("./imagens/botao-play-ponta-de-seta.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botaoplay.setIcon(icon)
         self.botaoplay.setIconSize(QtCore.QSize(40, 40))
         self.botaoplay.setObjectName("botaoplay")
@@ -217,7 +217,7 @@ class Ui_MainWindow(object):
 "\n"
 "")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/embaralhar(1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon1.addPixmap(QtGui.QPixmap(".imagens/embaralhar(1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botao_playaleatorio.setIcon(icon1)
         self.botao_playaleatorio.setIconSize(QtCore.QSize(30, 30))
         self.botao_playaleatorio.setObjectName("botao_playaleatorio")
@@ -254,7 +254,7 @@ class Ui_MainWindow(object):
         item = QtWidgets.QListWidgetItem()
         item.setTextAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignVCenter)
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/fogo(2).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon2.addPixmap(QtGui.QPixmap("./imagens/fogo(2).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         item.setIcon(icon2)
         self.listWidget.addItem(item)
         item = QtWidgets.QListWidgetItem()
@@ -365,7 +365,7 @@ class Ui_MainWindow(object):
 "}")
         self.botao_abrir_2.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/Abrir.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap("./imagens/Abrir.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botao_abrir_2.setIcon(icon4)
         self.botao_abrir_2.setIconSize(QtCore.QSize(18, 18))
         self.botao_abrir_2.setObjectName("botao_abrir_2")
@@ -386,7 +386,7 @@ class Ui_MainWindow(object):
 "}")
         self.botao_fecahr_2.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/fechar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon5.addPixmap(QtGui.QPixmap("./imagens/fechar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botao_fecahr_2.setIcon(icon5)
         self.botao_fecahr_2.setIconSize(QtCore.QSize(18, 18))
         self.botao_fecahr_2.setObjectName("botao_fecahr_2")
@@ -486,7 +486,7 @@ class Ui_MainWindow(object):
 "}")
         self.botao_volatr_2.setText("")
         icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/proximo(1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon6.addPixmap(QtGui.QPixmap("./imagens/proximo(1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botao_volatr_2.setIcon(icon6)
         self.botao_volatr_2.setIconSize(QtCore.QSize(30, 30))
         self.botao_volatr_2.setObjectName("botao_volatr_2")
@@ -534,7 +534,7 @@ class Ui_MainWindow(object):
 "}")
         self.botao_passar_2.setText("")
         icon7 = QtGui.QIcon()
-        icon7.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/proximo (1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon7.addPixmap(QtGui.QPixmap("./imagens/proximo (1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botao_passar_2.setIcon(icon7)
         self.botao_passar_2.setIconSize(QtCore.QSize(30, 30))
         self.botao_passar_2.setObjectName("botao_passar_2")
@@ -585,7 +585,7 @@ class Ui_MainWindow(object):
 "}")
         self.botaovolume_3.setText("")
         icon8 = QtGui.QIcon()
-        icon8.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/volume-control.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon8.addPixmap(QtGui.QPixmap("./imagens/volume-control.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botaovolume_3.setIcon(icon8)
         self.botaovolume_3.setIconSize(QtCore.QSize(50, 50))
         self.botaovolume_3.setObjectName("botaovolume_3")
@@ -732,7 +732,7 @@ class Ui_MainWindow(object):
         self.label_13.setFont(font)
         self.label_13.setStyleSheet("border:0px;")
         self.label_13.setText("")
-        self.label_13.setPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/planet.png"))
+        self.label_13.setPixmap(QtGui.QPixmap("../../SpaceMusic/src/imagens/planet.png"))
         self.label_13.setScaledContents(True)
         self.label_13.setAlignment(QtCore.Qt.AlignCenter)
         self.label_13.setObjectName("label_13")
@@ -903,7 +903,7 @@ class Ui_MainWindow(object):
 "}")
         self.botao_voltar.setText("")
         icon9 = QtGui.QIcon()
-        icon9.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/botao-(3).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon9.addPixmap(QtGui.QPixmap("./imagens/botao-(3).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botao_voltar.setIcon(icon9)
         self.botao_voltar.setIconSize(QtCore.QSize(50, 50))
         self.botao_voltar.setCheckable(False)
@@ -960,7 +960,7 @@ class Ui_MainWindow(object):
         self.label_15 = QtWidgets.QLabel(self.frame_73)
         self.label_15.setStyleSheet("")
         self.label_15.setText("")
-        self.label_15.setPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/WhatsApp Image 2022-05-19 at 14.08.31(3).jpeg"))
+        self.label_15.setPixmap(QtGui.QPixmap("../../SpaceMusic/src/imagens/WhatsApp Image 2022-05-19 at 14.08.31(3).jpeg"))
         self.label_15.setScaledContents(True)
         self.label_15.setObjectName("label_15")
         self.verticalLayout_32.addWidget(self.label_15)
@@ -1141,7 +1141,7 @@ class Ui_MainWindow(object):
 "")
         self.botaovoltar.setText("")
         icon10 = QtGui.QIcon()
-        icon10.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/costas.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon10.addPixmap(QtGui.QPixmap("./imagens/costas.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botaovoltar.setIcon(icon10)
         self.botaovoltar.setIconSize(QtCore.QSize(70, 70))
         self.botaovoltar.setObjectName("botaovoltar")
@@ -1162,7 +1162,7 @@ class Ui_MainWindow(object):
 "")
         self.botaoplay_2.setText("")
         icon11 = QtGui.QIcon()
-        icon11.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/jogar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon11.addPixmap(QtGui.QPixmap("./imagens/jogar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botaoplay_2.setIcon(icon11)
         self.botaoplay_2.setIconSize(QtCore.QSize(90, 90))
         self.botaoplay_2.setObjectName("botaoplay_2")
@@ -1182,7 +1182,7 @@ class Ui_MainWindow(object):
 "")
         self.botaopassar.setText("")
         icon12 = QtGui.QIcon()
-        icon12.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/proximo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon12.addPixmap(QtGui.QPixmap("./imagens/proximo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botaopassar.setIcon(icon12)
         self.botaopassar.setIconSize(QtCore.QSize(70, 70))
         self.botaopassar.setObjectName("botaopassar")
@@ -1381,7 +1381,7 @@ class Ui_MainWindow(object):
 "\n"
 "")
         icon13 = QtGui.QIcon()
-        icon13.addPixmap(QtGui.QPixmap("../../SpaceMusic/intercaces/imagens/adicionar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon13.addPixmap(QtGui.QPixmap("./imagens/adicionar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botao_criar_playlist_3.setIcon(icon13)
         self.botao_criar_playlist_3.setIconSize(QtCore.QSize(30, 30))
         self.botao_criar_playlist_3.setObjectName("botao_criar_playlist_3")
@@ -1445,13 +1445,13 @@ class Ui_MainWindow(object):
     def troca_imagem_play(self):
             self.botaoplay_2.setText("")
             icon1 = QtGui.QIcon()
-            icon1.addPixmap(QtGui.QPixmap("imagens/jogar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon1.addPixmap(QtGui.QPixmap("./imagens/jogar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             self.botaoplay_2.setIcon(icon1)
             self.botaoplay_2.setIconSize(QtCore.QSize(70, 70))
 
             self.botaoplay.setText("")
             icon11 = QtGui.QIcon()
-            icon11.addPixmap(QtGui.QPixmap("imagens/botao-play-ponta-de-seta.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon11.addPixmap(QtGui.QPixmap("./imagens/botao-play-ponta-de-seta.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             self.botaoplay.setIcon(icon11)
             self.botaoplay.setIconSize(QtCore.QSize(40, 40))
 
@@ -1462,13 +1462,13 @@ class Ui_MainWindow(object):
     def troca_imagem_pause(self):
             self.botaoplay_2.setText("")
             icon1 = QtGui.QIcon()
-            icon1.addPixmap(QtGui.QPixmap("imagens/pausa 2.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon1.addPixmap(QtGui.QPixmap("./imagens/pausa 2.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             self.botaoplay_2.setIcon(icon1)
             self.botaoplay_2.setIconSize(QtCore.QSize(70, 70))
 
             self.botaoplay.setText("")
             icon11 = QtGui.QIcon()
-            icon11.addPixmap(QtGui.QPixmap("imagens/pausa(1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon11.addPixmap(QtGui.QPixmap("./imagens/pausa(1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             self.botaoplay.setIcon(icon11)
             self.botaoplay.setIconSize(QtCore.QSize(40, 40))
 
@@ -1478,7 +1478,7 @@ class Ui_MainWindow(object):
 
     def troca_imagem_voume(self):
             icon5 = QtGui.QIcon()
-            icon5.addPixmap(QtGui.QPixmap("imagens/volume-control.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon5.addPixmap(QtGui.QPixmap("./imagens/volume-control.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             self.botaovolume_2.setIcon(icon5)
             self.botaovolume_2.setIconSize(QtCore.QSize(50, 50))
 
@@ -1487,7 +1487,7 @@ class Ui_MainWindow(object):
 
     def troca_imagem_mute(self):
             icon5 = QtGui.QIcon()
-            icon5.addPixmap(QtGui.QPixmap("imagens/volume-mute.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon5.addPixmap(QtGui.QPixmap("./imagens/volume-mute.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
 
             self.botaovolume_2.setIcon(icon5)
             self.botaovolume_2.setIconSize(QtCore.QSize(50, 50))
@@ -1502,7 +1502,7 @@ class Ui_MainWindow(object):
 
         for i in lista:
                 icon5 = QtGui.QIcon()
-                icon5.addPixmap(QtGui.QPixmap("imagens/notas-musicais.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+                icon5.addPixmap(QtGui.QPixmap("./imagens/notas-musicais.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
 
                 item = QtWidgets.QListWidgetItem()
                 item.setTextAlignment(QtCore.Qt.AlignLeading | QtCore.Qt.AlignVCenter)
@@ -1520,7 +1520,7 @@ class Ui_MainWindow(object):
 
     def botao_aleatorio_ativado(self):
             icon12 = QtGui.QIcon()
-            icon12.addPixmap(QtGui.QPixmap("imagens/embaralhar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon12.addPixmap(QtGui.QPixmap("./imagens/embaralhar.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             self.botaoaleatorio.setIcon(icon12)
             self.botaoaleatorio.setIconSize(QtCore.QSize(40, 40))
 
@@ -1529,7 +1529,7 @@ class Ui_MainWindow(object):
 
     def botao_aleatorio_desativado(self):
         icon12 = QtGui.QIcon()
-        icon12.addPixmap(QtGui.QPixmap("imagens/embaralhar(1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon12.addPixmap(QtGui.QPixmap("./imagens/embaralhar(1).png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.botaoaleatorio.setIcon(icon12)
         self.botaoaleatorio.setIconSize(QtCore.QSize(40, 40))
 

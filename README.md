@@ -4,7 +4,15 @@
 
 ## <u>-Instruções para executar programa:</u>
 
+### Virtualenv 
+  virtualenv venv
+
 ### - Instalar Bibliotecas dependentes:
+
+        .venv/bin/activate
+        
+        pip install pyqtwebengine
+        
         pip install PyQt5
         
         pip install pygame

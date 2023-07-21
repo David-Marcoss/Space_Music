@@ -182,7 +182,7 @@ color: rgb(255, 255, 255);</string>
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>../../SpaceMusic/intercaces/imagens/music.png</pixmap>
+                    <pixmap>./imagens/music.png</pixmap>
                    </property>
                    <property name="scaledContents">
                     <bool>true</bool>
@@ -1658,7 +1658,7 @@ border-bottom: 1px solid rgb(44, 73, 95);</string>
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>../../SpaceMusic/intercaces/imagens/planet.png</pixmap>
+                    <pixmap>../../SpaceMusic/src/imagens/planet.png</pixmap>
                    </property>
                    <property name="scaledContents">
                     <bool>true</bool>
@@ -2200,7 +2200,7 @@ QPushButton:hover{
                           <string/>
                          </property>
                          <property name="pixmap">
-                          <pixmap>../../SpaceMusic/intercaces/imagens/WhatsApp Image 2022-05-19 at 14.08.31(3).jpeg</pixmap>
+                          <pixmap>./imagens/WhatsApp Image 2022-05-19 at 14.08.31(3).jpeg</pixmap>
                          </property>
                          <property name="scaledContents">
                           <bool>true</bool>
